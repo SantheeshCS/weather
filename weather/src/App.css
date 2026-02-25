@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 420px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  text-align: left;
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+}
+
+.loader {
+  margin-top: 10px;
+}
